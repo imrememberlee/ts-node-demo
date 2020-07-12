@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "tsnd -P ./tsconfig.json --respawn ./src/main.ts",
+    "build": "tsc --project ./src"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.22",
+    "ts-node-dev": "^1.0.0-pre.51",
+    "typescript": "^3.9.6"
+  },
+  "license": "MIT"
+}
